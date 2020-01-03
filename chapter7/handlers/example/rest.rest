@@ -1,0 +1,7 @@
+curl "http://localhost:3333/name?name=Reader" -X GET
+
+###
+//
+curl "http://localhost:3333/greeting" -X POST -d
+'name=Reader;greeting=Goodbye'
+

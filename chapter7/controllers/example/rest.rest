@@ -1,0 +1,7 @@
+curl http://localhost:3333/set -X POST -d "value=supervalue"
+###
+curl http://localhost:3333/get -X GET
+###
+curl http://localhost:3333/get/default -X GET
+
+
